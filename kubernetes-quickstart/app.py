@@ -3,7 +3,7 @@ import uvicorn
 app = FastAPI()
 
 
-@app.get("/")
+@app.get("/new")
 def hello_world():
     return {"message": "You are now working on the Kubernetes"}
 
